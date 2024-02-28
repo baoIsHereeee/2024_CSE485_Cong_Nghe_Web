@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+.form-container {
+    border: 1px solid #ddd;
+    padding: 20px;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.form-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.form-group {
+    margin-bottom: 10px;
+}
+
+.form-label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-input {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.form-select {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.form-button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 5px 10px;
+    border: 1px solid #007bff;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.form-row {
+    display: flex;
+    align-items: center; /* Canh giữa các mục theo chiều dọc */
+    margin-bottom: 10px; /* Thêm khoảng cách giữa các hàng */
+}
+
+.form-label {
+    width: 200px; /* Thiết lập độ rộng cố định cho nhãn */
+    margin-right: 10px; /* Thêm khoảng cách giữa nhãn và trường nhập */
+}
