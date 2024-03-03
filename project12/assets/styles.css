@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav ul {
+    background: #0a1f77;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+/*    muốn tất cả căn giữa thì text-align: center*/
+}
+
+
+nav ul li {
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 0;
+    font-size: 15px;
+    color: white;
+    padding: 0px 20px;
+    border-right: 1px solid white;
+    height: 20px;
+    font-family: sans-serif;
+    cursor: pointer;
+}
+
+
+nav ul li:last-child{
+    border-right: none;
+}
+
+
+

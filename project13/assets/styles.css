@@ -1,0 +1,80 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.course {
+    margin-top: 5px;
+    background-color: #f9f9f9;
+    padding: 10px;
+    margin-bottom: 20px;
+    font-family: "Helvetica Neue",Helvetica,Arial;
+    width: calc(33.33% - 50px);
+    display: flex;
+    flex-direction: column;
+}
+
+.upcoming-courses h1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 60px;
+    font-size: 25px;
+    font-family: "Helvetica Neue",Helvetica,Aria;
+    color: red;
+}
+
+.vertical-line {
+    position: absolute;
+    left: 40px;
+    top: 0;
+    bottom: 0px;
+    width: 5px;
+    background-color: red;
+    height: 35px;
+    margin-top: 7px;
+}
+
+h2 {
+    font-size: 15px;
+}
+
+p {
+    font-size: 12px;
+}
+
+
+.course h2 {
+    color: #333;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.course p {
+    color: #666;
+    flex-grow: 1;
+    text-align: justify; /*căn đều các dong trong mô ta*/
+}
+
+.course-image {
+    width: 100px;
+    height: auto;
+}
+
+.fee {
+    margin-top: 10px;
+}
+
+.start_date, .duration {
+    margin-top: 10px;
+}
+
+.fa-gift, .fa-clock, .fa-bookmark {
+    color: red;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}

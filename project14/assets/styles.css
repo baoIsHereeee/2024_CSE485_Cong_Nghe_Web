@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 11px 160px;
+}
+
+hr {
+    width: 100%; /* Thay đổi giá trị này để dòng ngang rộng bằng table */
+}
+
+tr {
+    padding-bottom: 10px;
+}
+
+input {
+    width: 100%;
+    line-height: 20px;
+}
+
+input[type = "radio"] {
+    width: auto;
+    margin-right: 15px;
+    margin-top: 3px;
+}
+
+table {
+    border-collapse: separate;
+    border-spacing: 16px 16px;
+    width: 100%; /* Thêm thuộc tính này để table tự co dãn theo kích thước của màn hình */
+}
+
+input[ = "text"] {
+    margin-right: 41px;
+}
+
+caption {
+    text-align: left; /* Căn trái tiêu đề "Basic Info" */
+}
+
+.gender-row input[type="radio"] {
+    float: left;
+}
+
+.edit_notes {
+    line-height: 150px;
+    max-width: 155px;
+}
+
+.btn-footer-1 {
+    float: left;
+    margin-top: 10px;
+}
+
+.fa-caret-left, .fa-caret-right {
+    width: 25px;
+    height: 20px;
+    background-color: dimgray;
+    font-size: 20px;
+    color: #f9f9f9;
+}
+
+.btn-footer-2 {
+    float: right;
+    margin-top: 10px;
+}
+
+
+.btn_submit, .btn_canel {
+    width: 80px;
+    height: 30px;
+    background-color: dimgray;
+}
+
+.btn_submit {
+    margin-right: 10px;
+}
+
+.text-footer {
+    margin-top: 25px;
+    font-weight: bold;
+}
+
